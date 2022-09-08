@@ -1,5 +1,32 @@
 ## Python Projects
 
-This repo contains a collection of my old python project, backed-up here for reference.
+This repo contains a collection of my old and recent python project, backed-up here for reference.
 
-Some projects created more recently, most of the standardised algorithms are from University or A-level study notes.
+
+Standardised sort and search algorithms - all re-coded from memory for practice:
+•	binary search.py
+•	linear search.py
+•	bubble sort.py
+•	insertion sort.py
+•	sorting.py - compares runtime of both bubble and insetion sort
+
+sort simulator.py - simulates push and pop operations on a stack
+
+conways game of life.py - my own version of conways game of life, produced as part of a recent hack-athon, uses tkinker library to create a GUI
+
+top trumps.py - simple command line version of top trumps - used to practice OOP techniques
+
+piglatin:
+•	piglatin.py - takes in english.txt and converts it to piglatin - outputs to console, mindful of punctutation
+•	english.txt - input file
+
+hangman:
+•	hangman1.py - plays hangman with the user, allows for three difficulties, gives hints and draws the hangman to the console
+•	hangman ascii graphic.txt - used to draw the hangman to console
+•	easy.txt, medium.txt, hard.txt - contains words at each of the three difficultly levels - input files
+•	easy_clue.txt, medium_clue.txt, hard_clue.txt - contains complementary clues to each of the words - input files
+
+binary spell checker:
+binary search spell checker.py - spell checks an inputed sentence, using binary search of a dictionary - outputs to a website (html file)
+binarySearch.html - output file, highlights mis-spelled words
+dictionary.txt - input file, words compared to this file
